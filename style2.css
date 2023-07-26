@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+   background: white; 
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: rgb(27, 71, 53);
+
+}
+
+.logo{
+    position: relative;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    display:inline-block;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    margin-left: 30px;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color:crimson;
+    padding: 2px;
+    font-weight: 8px;
+    box-shadow: 2px 3px rgb(190, 190, 59);
+    border-radius: 8px;
+    background: yellow;
+    border: 1px solid crimson;
+
+}
+p,h2,img,h3{
+    position: relative;
+    z-index:1;
+}
+
+/* .home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url(Photos/hope.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+} */
+.image{
+    height: 280px;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(Photos/hope.jpg); 
+}
+
+.home h2{
+    text-align: center;
+    /* background-color: rgb(199, 227, 251); */
+    background-color: rgb(156, 199, 236);
+    padding: 10px 0px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.container{
+    background-image: url(Photos/texture.jpg);
+}
+.website{
+    display: flex;
+}
+.container h3{
+    padding: 25px 10px 20px 10px;
+    font-size: 25px;
+}
+.web1 p, .web2 p, .web3 p{
+    text-align: justify;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 500px;
+}
+.img1 img, .img2 img, .img3 img{
+    height: 280px;
+    width: 300px;
+    margin: 8px 45px 30px 50px;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+.soc h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding: 25px 0 10px 0;
+    /* text-shadow: 1px 1px white; */
+}
+
+.soc-1{
+    display: flex;
+    margin: 10px 40%;
+    padding-bottom: 20px;
+}
+.soc-1 a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 60%;
+    font-size: 45px;
+    color: white;
+    text-decoration: none;
+    margin: 15px 15px 25px 0;
+    padding: 25px 0 25px 0;
+}
+.soc-1 a:hover{
+    background: aqua;
+    color: black;
+    box-shadow: 0 0 30px aqua;
+    border-color: aqua;
+}
+.social{
+    background-image: url(Photos/project.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+   background: white; 
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    display:inline-block;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    font-weight: 550;
+    margin-left: 30px;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color:crimson;
+    padding: 2px;
+    font-weight: 8px;
+    box-shadow: 2px 3px rgb(190, 190, 59);
+    border-radius: 8px;
+    background: yellow;
+    border: 1px solid crimson;
+
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url(Photos/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.ayuImg img{
+    box-shadow: 12px 20px rgb(43, 42, 42);
+    height: 50%;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.home-content{
+    max-width: 600px;
+}
+.home-content h3{
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+.home-content h1{
+    font-size: 30px;
+    font-weight: 650px;
+    margin: -3px 0;
+}
+.home-content p{
+    font-size: 15px;
+}
+
+.m1{
+    display: flex;
+}
+
+marquee{
+    color:rgb(175, 4, 4);
+    text-shadow: 2px 2px rgb(233, 208, 20);
+    font-size: 20px;
+    margin-left: 3px;
+    width: 250px;
+    padding: 0px 1px;
+}
+
+
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(19, 22, 23);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(10, 17, 18);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+.home-sci a:hover{
+    background: rgb(3, 14, 15);
+    color: rgb(218, 205, 205);
+    box-shadow: 0 0 20px rgb(44, 55, 56);
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgb(19, 22, 23);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #f9fdff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px  rgb(44, 55, 56), 0 0 25px rgb(44, 55, 56), 0 0 50px  rgb(44, 55, 56), 0 0 100px rgb(44, 55, 56),0 0 200px  rgb(44, 55, 56);
+
+}
